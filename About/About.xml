@@ -1,0 +1,46 @@
+<ModMetaData>
+	<name>Vanilla Races Expanded - Starjack</name>
+	<author>Oskar Potocki, Sarg Bjornson</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Odyssey</packageId>
+			<displayName>Rimworld - Odyssey</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/3022790/RimWorld__Odyssey/</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Rimworld - Biotech</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+		</li>
+		
+	</modDependencies>
+	<loadAfter>
+		
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+
+	</loadAfter>
+
+	<packageId>vanillaracesexpanded.starjack</packageId>
+	<description>Vanilla Races Expanded is a brand new series of mods to enhance Biotech features, add to the storytelling and the world-building of RimWorld, and to introduce new, cool types ofxenohumans, complete with their own unique genes, behaviors, mechanics and items.
+
+Vanilla Races Expanded - Starjack expands on the new xenotype introduced in Odyssey DLC. Engineered for life among the stars, starjack are built to withstand the unforgiving conditions of deep space living. We help them really shine in their field of work, making them the preferred go-to when it comes to zero-G work.
+
+A number of new genes will mold the starjacks, making them excel in space and suffer on the surface. Having them will be extremely useful, but also cause a number of issues in itself if you land them on a planet.
+</description>
+</ModMetaData>
