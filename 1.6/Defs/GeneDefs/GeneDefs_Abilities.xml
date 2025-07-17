@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <GeneDef>
+    <defName>VREStarjack_SpacejumpLegs</defName>
+    <label>spacejump legs</label>
+    <description>Carriers of this gene possess powerful leg muscles that allow them to launch themselves across vast distances in the vacuum of space. This ability cannot be used in atmospheres.</description>
+    <iconPath>UI/Icons/Genes/Gene_SpacejumpLegs</iconPath>
+    <geneClass>VEF.Genes.Gene_Astrogene</geneClass>
+    <displayCategory>Ability</displayCategory>
+    <abilities>
+      <li>VREStarjack_SpacejumpLegs</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>VREStarjack_SpacejumpLegs</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>jumper</symbol></li>
+        <li><symbol>leaper</symbol></li>
+        <li><symbol>bouncer</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>jump</symbol></li>
+        <li><symbol>leap</symbol></li>
+        <li><symbol>vault</symbol></li>
+        <li><symbol>long</symbol></li>
+        <li><symbol>fly</symbol></li>
+        <li><symbol>hop</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+</Defs>

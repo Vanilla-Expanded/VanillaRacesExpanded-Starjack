@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  <ThoughtDef>
+    <defName>VREStarjack_OxygenSensitivity_Mild</defName>
+    <workerClass>VEF.Pawns.ThoughtWorker_NotInVacuum</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>VREStarjack_OxygenSensitivity_Mild</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>oxygen sensitivity</label>
+        <description>The air feels sharp in my lungs. Every breath burns a little more than the last.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>VREStarjack_OxygenSensitivity_Intense</defName>
+    <workerClass>VEF.Pawns.ThoughtWorker_NotInVacuum</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>VREStarjack_OxygenSensitivity_Intense</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>oxygen sensitivity</label>
+        <description>The oxygen sears my lungs. Every breath feels like inhaling fire.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>VREStarjack_OxygenSensitivity_Extreme</defName>
+    <workerClass>VEF.Pawns.ThoughtWorker_NotInVacuum</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>VREStarjack_OxygenSensitivity_Extreme</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>oxygen sensitivity</label>
+        <description>I can’t breathe. The air is tearing me apart from the inside.</description>
+        <baseMoodEffect>-14</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

@@ -48,6 +48,8 @@ namespace VanillaRacesExpandedStarjack
             clonedGene.defName = geneDef.defName + "_Astrogene";
             clonedGene.geneClass = typeof(Gene_Astrogene);
             clonedGene.selectionWeight = 0;
+            clonedGene.biostatCpx = 0;
+            clonedGene.biostatMet = 0;
             clonedGene.modExtensions = clonedGene.modExtensions?.ListFullCopy();
 
             var existingGeneExtension = clonedGene.GetModExtension<GeneExtension>();

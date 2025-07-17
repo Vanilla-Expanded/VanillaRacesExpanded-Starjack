@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<GeneDef>
+		<defName>VREStarjack_VacuumResistance_Total</defName>
+		<label>vacuum impervious</label>
+		<labelShortAdj>vacuum-impervious</labelShortAdj>
+		<description>Carriers of this gene have hardier circulatory and respiratory systems, reducing the rate at which hypoxia builds up in the vacuum of space.</description>
+		<iconPath>UI/Icons/Genes/Gene_TotalVacuumResistance</iconPath>
+		<displayOrderInCategory>21</displayOrderInCategory>
+		<immuneToVacuumBurns>true</immuneToVacuumBurns>
+		<exclusionTags>
+			<li>VREStarjack_VacuumResistance</li>
+		</exclusionTags>
+		<displayCategory>ResistanceAndWeakness</displayCategory>
+		<statOffsets>
+			<VacuumResistance>0.96</VacuumResistance>
+		</statOffsets>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+	</GeneDef>
+	<GeneDef>
+		<defName>VREStarjack_Cryostasis</defName>
+		<label>cryostasis</label>
+		<description>Carriers of this gene do not suffer fatal hypothermia. Instead, their bodies gradually slow down and enter a dormant state when exposed to extreme cold, and they can awaken safely once warmed.</description>
+		<iconPath>UI/Icons/Genes/Gene_Cryostasis</iconPath>
+		<displayCategory>ResistanceAndWeakness</displayCategory>
+		<makeImmuneTo>
+			<li>Hypothermia</li>
+		</makeImmuneTo>
+		<hediffGiversCannotGive>
+			<li>Hypothermia</li>
+		</hediffGiversCannotGive>
+		<exclusionTags>
+			<li>InsectorHypothermia</li>
+		</exclusionTags>
+	</GeneDef>
+	<GeneDef>
+		<defName>VREStarjack_OxygenSensitivity_Mild</defName>
+		<label>mild oxygen sensitivity</label>
+		<description>Carriers of this gene are slightly averse to oxygen-rich environments. In breathable atmosphere, they experience minor respiratory and neurological strain, accompanied by a subtle discomfort with each breath.</description>
+		<iconPath>UI/Icons/Genes/Gene_MildOxygenSensitivity</iconPath>
+		<displayCategory>ResistanceAndWeakness</displayCategory>
+		<exclusionTags>
+			<li>VREStarjack_OxygenSensitivity</li>
+		</exclusionTags>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>3</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<hediffToWholeBody>VREStarjack_OxygenSensitivity_Mild</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>VREStarjack_OxygenSensitivity_Intense</defName>
+		<label>intense oxygen sensitivity</label>
+		<description>Carriers of this gene suffer severe discomfort and reduced bodily function in oxygenated environments. Exposure to breathable air causes pain, weakness, and labored breathing, making planetary survival difficult.</description>
+		<iconPath>UI/Icons/Genes/Gene_IntenseOxygenSensitivity</iconPath>
+		<displayCategory>ResistanceAndWeakness</displayCategory>
+		<exclusionTags>
+			<li>VREStarjack_OxygenSensitivity</li>
+		</exclusionTags>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>4</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<hediffToWholeBody>VREStarjack_OxygenSensitivity_Intense</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>VREStarjack_OxygenSensitivity_Extreme</defName>
+		<label>extreme oxygen sensitivity</label>
+		<description>Carriers of this gene cannot survive in oxygen-rich environments. Exposure to breathable atmospheres causes rapid lung failure and eventual death. Only the vacuum of space or low-oxygen gravship environments can sustain them.</description>
+		<iconPath>UI/Icons/Genes/Gene_ExtremeOxygenSensitivity</iconPath>
+		<displayCategory>ResistanceAndWeakness</displayCategory>
+		<exclusionTags>
+			<li>VREStarjack_OxygenSensitivity</li>
+		</exclusionTags>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>5</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<hediffToWholeBody>VREStarjack_OxygenSensitivity_Extreme</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>VREStarjack_VacuumEfficiency</defName>
+		<label>vacuum efficiency</label>
+		<labelShortAdj>vacuum-efficient</labelShortAdj>
+		<description>Carriers of this gene thrive in space. Their bodies are highly adapted to zero-atmosphere conditions, allowing for faster and more efficient work outside planetary environments. However, they function poorly on terrestrial surfaces.</description>
+		<iconPath>UI/Icons/Genes/Gene_VacuumEfficiency</iconPath>
+		<displayCategory>ResistanceAndWeakness</displayCategory>
+		<conditionalStatAffecters>
+			<li Class="VEF.Genes.ConditionalStatAffecter_InSpace">
+				<statFactors>
+					<WorkSpeedGlobal>1.25</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+			<li Class="VEF.Genes.ConditionalStatAffecter_NotInSpace">
+				<statFactors>
+					<WorkSpeedGlobal>0.65</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+	</GeneDef>
+</Defs>

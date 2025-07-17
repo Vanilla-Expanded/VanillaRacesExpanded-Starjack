@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/XenotypeDef[defName="Starjack"]/genes</xpath>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/XenotypeDef[defName="Starjack"]/genes/li[text() = "VacuumResistance_Partial"]</xpath>
 		<value>
-            <li>VREStarjack_Gene_Randomizer</li>
-			
+			<li>VREStarjack_VacuumResistance_Total</li>
 		</value>
 	</Operation>
-	
-	
-	
-	
-	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/XenotypeDef[defName="Starjack"]/genes</xpath>
+		<value>
+			<li>VREStarjack_Gene_Randomizer</li>
+			<li>VREStarjack_OxygenSensitivity_Intense</li>
+			<li>VREStarjack_Cryostasis</li>
+			<li>VREStarjack_SpacejumpLegs</li>
+			<li>VREStarjack_VacuumEfficiency</li>
+			<li>Tail_Smooth</li>
+			<li>FoamSpray</li>
+		</value>
+	</Operation>
 </Patch>
 

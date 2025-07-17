@@ -17,5 +17,13 @@ namespace VanillaRacesExpandedStarjack
 
 		public static XenotypeDef Starjack;
 
-	}
+		public static GeneDef VREStarjack_Cryostasis;
+		public static GeneDef VREStarjack_OxygenSensitivity_Extreme;
+
+        public static HediffDef VREStarjack_CryostasisHediff;
+		public static HediffDef Hypothermia;
+		public static HediffDef VREStarjack_Hyperoxia;
+
+
+    }
 }
