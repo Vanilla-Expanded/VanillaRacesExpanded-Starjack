@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<GeneDef>
+		<defName>VREStarjack_Gene_Randomizer</defName>
+		<label>randomizer</label>
+		<description>Once a pawn receives this gene, it will transform itself into 2 random astrogenes.</description>
+		<iconPath>UI/GeneBackground/GeneBackground_Astrogene</iconPath>
+		<geneClass>VanillaRacesExpandedStarjack.Gene_Randomizer</geneClass>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				
+				<hideGene>true</hideGene>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+
+</Defs>
