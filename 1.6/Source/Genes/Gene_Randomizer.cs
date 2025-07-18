@@ -16,15 +16,22 @@ namespace VanillaRacesExpandedStarjack
         {
             base.PostAdd();
 
-            List<GeneDef> chosenAstrogenes = StaticCollections.allAstrogenes.OrderBy(x => Rand.Value).Take(2).ToList();
-           
-            foreach (GeneDef chosenAstrogene in chosenAstrogenes)
+            int geneAmount = VanillaRacesExpandedStarjack_Settings.starjackGenesAmount;
+
+            if (geneAmount > 0)
             {
-                if (!pawn.genes.HasActiveGene(chosenAstrogene))
+                List<GeneDef> chosenAstrogenes = StaticCollections.allAstrogenes.OrderBy(x => Rand.Value).Take(geneAmount).ToList();
+
+                foreach (GeneDef chosenAstrogene in chosenAstrogenes)
                 {
-                    pawn.genes.AddGene(chosenAstrogene, true);
+                    if (!pawn.genes.HasActiveGene(chosenAstrogene))
+                    {
+                        pawn.genes.AddGene(chosenAstrogene, true);
+                    }
                 }
             }
+
+            
 
             pawn.genes.RemoveGene(this);
 
