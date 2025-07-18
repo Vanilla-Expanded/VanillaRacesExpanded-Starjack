@@ -6,7 +6,6 @@
     <label>spacejump legs</label>
     <description>Carriers of this gene possess powerful leg muscles that allow them to launch themselves across vast distances in the vacuum of space. This ability cannot be used in atmospheres.</description>
     <iconPath>UI/Icons/Genes/Gene_SpacejumpLegs</iconPath>
-    <geneClass>VEF.Genes.Gene_Astrogene</geneClass>
     <displayCategory>Ability</displayCategory>
     <abilities>
       <li>VREStarjack_SpacejumpLegs</li>

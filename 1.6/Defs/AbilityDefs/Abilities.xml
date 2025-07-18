@@ -28,6 +28,11 @@
       </targetParams>
     </verbProperties>
     <jobDef>CastJump</jobDef>
+	<comps>
+			<li>
+				<compClass>VanillaRacesExpandedStarjack.CompAbilitySpaceOnly</compClass>
+			</li>
+		</comps>
     
   </AbilityDef>
 
