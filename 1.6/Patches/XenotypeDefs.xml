@@ -16,6 +16,7 @@
 			<li>VREStarjack_VacuumEfficiency</li>
 			<li>Tail_Smooth</li>
 			<li>FoamSpray</li>
+			<li>VREStarjack_GravshipAffinity</li>
 		</value>
 	</Operation>
 </Patch>

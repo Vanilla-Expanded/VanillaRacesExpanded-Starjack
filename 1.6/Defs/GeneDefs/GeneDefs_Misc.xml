@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<GeneDef>
+		<defName>VREStarjack_GravshipAffinity</defName>
+		<label>gravship affinity</label>
+	
+		<description>Carriers of this gene are naturally suited for life aboard gravships. Their genetic makeup enhances their coordination, perception, and technical aptitude in zero-gravity environments, making them exceptional pilots and crew.</description>
+		<iconPath>UI/Icons/Genes/Gene_TotalVacuumResistance</iconPath>
+		
+		<displayCategory>Miscellaneous</displayCategory>
+		<statFactors>
+			<PilotingAbility>1.25</PilotingAbility>
+		</statFactors>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+	</GeneDef>
+	
+</Defs>
