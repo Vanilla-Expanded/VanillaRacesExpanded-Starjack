@@ -14,6 +14,9 @@
 			<li Class="VEF.AnimalBehaviours.HediffCompProperties_StageByVacuum">
 				<notVacuumStageIndex>1</notVacuumStageIndex>
 				<vacuumStageIndex>0.1</vacuumStageIndex>
+				<vacuumResistanceInArmorDisablesHediff>true</vacuumResistanceInArmorDisablesHediff>
+				<vacuumResistanceValueToDisable>0.8</vacuumResistanceValueToDisable>
+				<reverseVacuumResistanceEffects>true</reverseVacuumResistanceEffects>
 			</li>
 		</comps>
 		<stages>
@@ -52,6 +55,9 @@
 			<li Class="VEF.AnimalBehaviours.HediffCompProperties_StageByVacuum">
 				<notVacuumStageIndex>1</notVacuumStageIndex>
 				<vacuumStageIndex>0.1</vacuumStageIndex>
+				<vacuumResistanceInArmorDisablesHediff>true</vacuumResistanceInArmorDisablesHediff>
+				<vacuumResistanceValueToDisable>0.8</vacuumResistanceValueToDisable>
+				<reverseVacuumResistanceEffects>true</reverseVacuumResistanceEffects>
 			</li>
 		</comps>
 		<stages>
@@ -90,6 +96,9 @@
 			<li Class="VEF.AnimalBehaviours.HediffCompProperties_StageByVacuum">
 				<notVacuumStageIndex>1</notVacuumStageIndex>
 				<vacuumStageIndex>0.1</vacuumStageIndex>
+				<vacuumResistanceInArmorDisablesHediff>true</vacuumResistanceInArmorDisablesHediff>
+				<vacuumResistanceValueToDisable>0.8</vacuumResistanceValueToDisable>
+				<reverseVacuumResistanceEffects>true</reverseVacuumResistanceEffects>
 			</li>
 		</comps>
 		<stages>

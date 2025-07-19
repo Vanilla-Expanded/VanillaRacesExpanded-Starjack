@@ -3,6 +3,7 @@ using RimWorld;
 using System.Linq;
 using UnityEngine;
 using Verse;
+using VEF.AnimalBehaviours;
 
 namespace VanillaRacesExpandedStarjack
 {
@@ -16,12 +17,12 @@ namespace VanillaRacesExpandedStarjack
             {
                 return;
             }
-
+            
             bool inVacuum = pawn.Map?.BiomeAt(pawn.Position)?.inVacuum == true;
 
             HediffDef hediffDef = InternalDefOf.VREStarjack_Hyperoxia;
             Hediff firstHediffOfDef = pawn.health.hediffSet.GetFirstHediffOfDef(hediffDef);
-            if (!inVacuum)
+            if (!inVacuum && pawn.VacuumResistanceFromArmor() < 0.8f)
             {
                 
                 HealthUtility.AdjustSeverity(pawn, hediffDef, 0.01f);

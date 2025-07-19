@@ -4,7 +4,7 @@
  
   <ThoughtDef>
     <defName>VREStarjack_OxygenSensitivity_Mild</defName>
-    <workerClass>VEF.Pawns.ThoughtWorker_NotInVacuum</workerClass>
+    <workerClass>VEF.Pawns.ThoughtWorker_NotInVacuum_Inverted</workerClass>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <requiredGenes>
       <li>VREStarjack_OxygenSensitivity_Mild</li>
@@ -20,7 +20,7 @@
 
  <ThoughtDef>
     <defName>VREStarjack_OxygenSensitivity_Intense</defName>
-    <workerClass>VEF.Pawns.ThoughtWorker_NotInVacuum</workerClass>
+    <workerClass>VEF.Pawns.ThoughtWorker_NotInVacuum_Inverted</workerClass>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <requiredGenes>
       <li>VREStarjack_OxygenSensitivity_Intense</li>
@@ -36,7 +36,7 @@
   
   <ThoughtDef>
     <defName>VREStarjack_OxygenSensitivity_Extreme</defName>
-    <workerClass>VEF.Pawns.ThoughtWorker_NotInVacuum</workerClass>
+    <workerClass>VEF.Pawns.ThoughtWorker_NotInVacuum_Inverted</workerClass>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <requiredGenes>
       <li>VREStarjack_OxygenSensitivity_Extreme</li>

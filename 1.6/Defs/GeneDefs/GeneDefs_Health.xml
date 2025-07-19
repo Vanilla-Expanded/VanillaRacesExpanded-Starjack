@@ -96,11 +96,13 @@
 			<li Class="VEF.Genes.ConditionalStatAffecter_InSpace">
 				<statFactors>
 					<WorkSpeedGlobal>1.25</WorkSpeedGlobal>
+					<MoveSpeed>1.15</MoveSpeed>
 				</statFactors>
 			</li>
 			<li Class="VEF.Genes.ConditionalStatAffecter_NotInSpace">
 				<statFactors>
 					<WorkSpeedGlobal>0.65</WorkSpeedGlobal>
+					<MoveSpeed>0.85</MoveSpeed>
 				</statFactors>
 			</li>
 		</conditionalStatAffecters>
