@@ -1,6 +1,6 @@
 <ModMetaData>
 	<name>Vanilla Races Expanded - Starjack</name>
-	<author>Oskar Potocki, Taranchuk, Sarg Bjornson</author>
+	<author>Oskar Potocki, Sarg Bjornson</author>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
@@ -34,10 +34,12 @@
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
 	<packageId>vanillaracesexpanded.starjack</packageId>
-	<description>Vanilla Races Expanded is a brand new series of mods to enhance Biotech features, add to the storytelling and the world-building of RimWorld, and to introduce new, cool types ofxenohumans, complete with their own unique genes, behaviors, mechanics and items.
+	<description>Vanilla Races Expanded is a brand new series of mods to enhance Biotech features, add to the storytelling and the world-building of RimWorld, and to introduce new, cool types of xenohumans, complete with their own unique genes, behaviors, mechanics and items.
 
-Vanilla Races Expanded - Starjack expands on the new xenotype introduced in Odyssey DLC. Engineered for life among the stars, starjack are built to withstand the unforgiving conditions of deep space living. We help them really shine in their field of work, making them the preferred go-to when it comes to zero-G work.
+In Vanilla Races Expanded – Starjack, we're expanding the Starjack xenotype into a fully space-adapted species. Originally built for life in zero gravity, Starjacks now come with new genes, unique abilities, and a deeper identity as orbital specialists who struggle on planetary surfaces.
 
-A number of new genes will mold the starjacks, making them excel in space and suffer on the surface. Having them will be extremely useful, but also cause a number of issues in itself if you land them on a planet.
+A major addition is the Astrogene system - genes that only activate in space. Each Starjack gets two randomized astrogenes, offering powerful but situational bonuses without affecting surface gameplay balance.
+
+We've also added new genes like Vacuum-Impervious, Cryostasis, Vacuum Efficiency, and Spacejump Tail, as well as several Oxygen Sensitivity traits that make planetary life increasingly hazardous. These changes reinforce the Starjacks' role as elite voidborn workers, pilots, and explorers, perfectly suited for gravships and deep-space survival.
 </description>
 </ModMetaData>
