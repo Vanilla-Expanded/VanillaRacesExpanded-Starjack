@@ -41,10 +41,10 @@
 						<offset>(-0, 0, -0.15)</offset>
 					</dataSouth>
 					<dataEast>
-						<offset>(-0.2, 0, -0.15)</offset>
+						<offset>(-0.45, 0, -0.15)</offset>
 					</dataEast>
 					<dataWest>
-						<offset>(0.2, 0, -0.15)</offset>
+						<offset>(0.45, 0, -0.15)</offset>
 					</dataWest>
 				</drawData>
 			</li>
