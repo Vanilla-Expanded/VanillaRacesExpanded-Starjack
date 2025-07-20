@@ -12,7 +12,7 @@
 			<PilotingAbility>1.25</PilotingAbility>
 		</statFactors>
 		<biostatCpx>1</biostatCpx>
-		<biostatMet>1</biostatMet>
+		<biostatMet>0</biostatMet>
 	</GeneDef>
 	
 </Defs>
