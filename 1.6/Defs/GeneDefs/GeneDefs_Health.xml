@@ -37,7 +37,7 @@
 	<GeneDef>
 		<defName>VREStarjack_OxygenSensitivity_Mild</defName>
 		<label>mild oxygen sensitivity</label>
-		<description>Carriers of this gene are slightly averse to oxygen-rich environments. In breathable atmosphere, they experience minor respiratory and neurological strain, accompanied by a subtle discomfort with each breath.</description>
+		<description>Carriers of this gene are slightly averse to oxygen-rich environments. In breathable atmosphere, they experience minor respiratory and neurological strain, accompanied by a subtle discomfort with each breath. Wearing any apparel that provides at least 80% vacuum resistance will mitigate the negative effects of this gene.</description>
 		<iconPath>UI/Icons/Genes/Gene_MildOxygenSensitivity</iconPath>
 		<displayCategory>ResistanceAndWeakness</displayCategory>
 		<exclusionTags>
@@ -54,7 +54,7 @@
 	<GeneDef>
 		<defName>VREStarjack_OxygenSensitivity_Intense</defName>
 		<label>intense oxygen sensitivity</label>
-		<description>Carriers of this gene suffer severe discomfort and reduced bodily function in oxygenated environments. Exposure to breathable air causes pain, weakness, and labored breathing, making planetary survival difficult.</description>
+		<description>Carriers of this gene suffer severe discomfort and reduced bodily function in oxygenated environments. Exposure to breathable air causes pain, weakness, and labored breathing, making planetary survival difficult. Wearing any apparel that provides at least 80% vacuum resistance will mitigate the negative effects of this gene.</description>
 		<iconPath>UI/Icons/Genes/Gene_IntenseOxygenSensitivity</iconPath>
 		<displayCategory>ResistanceAndWeakness</displayCategory>
 		<exclusionTags>
@@ -71,7 +71,7 @@
 	<GeneDef>
 		<defName>VREStarjack_OxygenSensitivity_Extreme</defName>
 		<label>extreme oxygen sensitivity</label>
-		<description>Carriers of this gene cannot survive in oxygen-rich environments. Exposure to breathable atmospheres causes rapid lung failure and eventual death. Only the vacuum of space or low-oxygen gravship environments can sustain them.</description>
+		<description>Carriers of this gene cannot survive in oxygen-rich environments. Exposure to breathable atmospheres causes rapid lung failure and eventual death. Only the vacuum of space or low-oxygen gravship environments can sustain them. Wearing any apparel that provides at least 80% vacuum resistance will mitigate the negative effects of this gene.</description>
 		<iconPath>UI/Icons/Genes/Gene_ExtremeOxygenSensitivity</iconPath>
 		<displayCategory>ResistanceAndWeakness</displayCategory>
 		<exclusionTags>
