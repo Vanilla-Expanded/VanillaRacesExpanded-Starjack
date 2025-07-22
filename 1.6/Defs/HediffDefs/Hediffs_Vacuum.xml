@@ -22,9 +22,11 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
+				 <becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<minSeverity>0.1</minSeverity>
+				 <becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<minSeverity>1</minSeverity>
@@ -63,9 +65,11 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
+				 <becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<minSeverity>0.1</minSeverity>
+				 <becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<minSeverity>1</minSeverity>
@@ -104,9 +108,11 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
+				 <becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<minSeverity>0.1</minSeverity>
+				 <becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<minSeverity>1</minSeverity>

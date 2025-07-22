@@ -5,7 +5,7 @@
 		<label>gravship affinity</label>
 	
 		<description>Carriers of this gene are naturally suited for life aboard gravships. Their genetic makeup enhances their coordination, perception, and technical aptitude in zero-gravity environments, making them exceptional pilots and crew.</description>
-		<iconPath>UI/Icons/Genes/Gene_TotalVacuumResistance</iconPath>
+		<iconPath>UI/Icons/Genes/Gene_GravshipAffinity</iconPath>
 		
 		<displayCategory>Miscellaneous</displayCategory>
 		<statFactors>
