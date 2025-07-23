@@ -28,7 +28,7 @@ namespace VanillaRacesExpandedStarjack
             List<GeneDef> resultingList = values.ToList();
 
             List<GeneDef> validGenes = DefDatabase<GeneDef>.AllDefsListForReading.Where(x => x.biostatCpx <= 2 && x.biostatMet >= -5 && x.biostatMet <= -1 && x.biostatArc == 0 
-            && !x.defName.Contains("Randomizer") &&x.prerequisite is null && !InternalDefOf.Starjack.genes.Contains(x)).ToList();
+            && !x.defName.Contains("Randomizer") && !x.defName.Contains("VREA_") && x.prerequisite is null && !InternalDefOf.Starjack.genes.Contains(x)).ToList();
            
             if (!validGenes.NullOrEmpty())
             {
