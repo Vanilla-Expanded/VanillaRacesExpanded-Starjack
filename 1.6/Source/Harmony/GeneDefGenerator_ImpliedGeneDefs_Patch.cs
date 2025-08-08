@@ -28,7 +28,8 @@ namespace VanillaRacesExpandedStarjack
             List<GeneDef> resultingList = values.ToList();
 
             List<GeneDef> validGenes = DefDatabase<GeneDef>.AllDefsListForReading.Where(x => x.biostatCpx <= 2 && x.biostatMet >= -5 && x.biostatMet <= -1 && x.biostatArc == 0 
-            && !x.defName.Contains("Randomizer") && !x.defName.Contains("VREA_") && !x.defName.Contains("VREW_Pollution") &&x.prerequisite is null && !InternalDefOf.Starjack.genes.Contains(x)).ToList();
+            && !x.defName.Contains("Randomizer") && !x.defName.Contains("VREA_") && !x.defName.Contains("VREW_Pollution") &&x.prerequisite is null && !InternalDefOf.Starjack.genes.Contains(x)
+            && x.GetModExtension<GeneExtension>() is not { disableGeneExtraction: true }).ToList();
            
             if (!validGenes.NullOrEmpty())
             {
@@ -61,6 +62,7 @@ namespace VanillaRacesExpandedStarjack
 
                 clonedGeneExtension.backgroundPathXenogenes = "UI/GeneBackground/GeneBackground_Astrogene";
                 clonedGeneExtension.backgroundPathXenogenes = "UI/GeneBackground/GeneBackground_Astrogene";
+                clonedGeneExtension.disableGeneExtraction = true;
 
                 clonedGene.modExtensions.Add(clonedGeneExtension);
 
@@ -71,7 +73,8 @@ namespace VanillaRacesExpandedStarjack
                 clonedGene.modExtensions.Add(new GeneExtension
                 {
                     backgroundPathXenogenes = "UI/GeneBackground/GeneBackground_Astrogene",
-                    backgroundPathEndogenes = "UI/GeneBackground/GeneBackground_Astrogene"
+                    backgroundPathEndogenes = "UI/GeneBackground/GeneBackground_Astrogene",
+                    disableGeneExtraction = true,
                 });
             }
             clonedGene.canGenerateInGeneSet = false;

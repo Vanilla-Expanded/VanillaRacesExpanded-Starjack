@@ -13,6 +13,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				
 				<hideGene>true</hideGene>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
