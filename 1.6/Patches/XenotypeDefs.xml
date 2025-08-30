@@ -10,9 +10,24 @@
 		<xpath>Defs/XenotypeDef[defName="Starjack"]/genes/li[text() = "AptitudeTerrible_Mining"]</xpath>
 		
 	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/XenotypeDef[defName="Starjack"]/genes/li[text() = "AptitudeTerrible_Melee"]</xpath>
+		
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/XenotypeDef[defName="Starjack"]/genes/li[text() = "MoveSpeed_Space"]</xpath>
+		
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/XenotypeDef[defName="Starjack"]/genes/li[text() = "MinTemp_LargeDecrease"]</xpath>
+		
+	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/XenotypeDef[defName="Starjack"]/genes</xpath>
 		<value>
+			<li>MinTemp_SmallDecrease</li>
+			<li>AptitudeTerrible_Plants</li>
+			<li>AptitudePoor_Melee</li>
 			<li>VREStarjack_Gene_Randomizer</li>
 			<li>VREStarjack_OxygenSensitivity_Intense</li>
 			<li>VREStarjack_Cryostasis</li>
