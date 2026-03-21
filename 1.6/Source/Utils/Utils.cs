@@ -13,7 +13,6 @@ namespace VanillaRacesExpandedStarjack
     public static class Utils
     {
 
-
         public static object Clone(this object obj)
         {
             var cloneMethod = obj.GetType().GetMethod("MemberwiseClone", BindingFlags.Instance | BindingFlags.NonPublic);

@@ -24,6 +24,9 @@ namespace VanillaRacesExpandedStarjack
 		public static HediffDef Hypothermia;
 		public static HediffDef VREStarjack_Hyperoxia;
 
+		[MayRequireRoyalty]
+		public static HediffDef VacskinGland;
+
 
     }
 }

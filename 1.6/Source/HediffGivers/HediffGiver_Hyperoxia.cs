@@ -22,14 +22,21 @@ namespace VanillaRacesExpandedStarjack
 
             HediffDef hediffDef = InternalDefOf.VREStarjack_Hyperoxia;
             Hediff firstHediffOfDef = pawn.health.hediffSet.GetFirstHediffOfDef(hediffDef);
-            if (!inVacuum && pawn.VacuumResistanceFromArmor() < 0.8f)
+            if (!inVacuum)
             {
-                
-                HealthUtility.AdjustSeverity(pawn, hediffDef, 0.01f);
-                if (pawn.Dead)
+                if(pawn.VacuumResistanceFromArmor() < 0.8f && pawn.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VacskinGland) is null)
                 {
-                    return;
+                    HealthUtility.AdjustSeverity(pawn, hediffDef, 0.01f);
+                    if (pawn.Dead)
+                    {
+                        return;
+                    }
                 }
+                else
+                {
+                    firstHediffOfDef.Severity -= 0.01f;
+                }
+                
             }
             if (firstHediffOfDef == null)
             {
