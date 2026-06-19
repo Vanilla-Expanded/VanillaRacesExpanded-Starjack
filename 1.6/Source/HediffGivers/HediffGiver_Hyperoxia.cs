@@ -34,7 +34,10 @@ namespace VanillaRacesExpandedStarjack
                 }
                 else
                 {
-                    firstHediffOfDef.Severity -= 0.01f;
+                    if (firstHediffOfDef != null)
+                    {
+                        firstHediffOfDef.Severity -= 0.01f;
+                    }
                 }
                 
             }
