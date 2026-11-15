@@ -29,7 +29,7 @@ namespace VanillaRacesExpandedStarjack
 
             List<GeneDef> validGenes = DefDatabase<GeneDef>.AllDefsListForReading.Where(x => x.biostatCpx <= 2 && x.biostatMet >= -5 && x.biostatMet <= -1 && x.biostatArc == 0 
             && !x.defName.Contains("Randomizer") && !x.defName.Contains("VREA_") && !x.defName.Contains("VREW_Pollution") &&x.prerequisite is null && !InternalDefOf.Starjack.genes.Contains(x)
-            && x.GetModExtension<GeneExtension>() is not { disableGeneExtraction: true }).ToList();
+            && x.GetModExtension<GeneExtension>() is not { disableGeneExtraction: true } && x.geneClass == typeof(Gene)).ToList();
            
             if (!validGenes.NullOrEmpty())
             {
